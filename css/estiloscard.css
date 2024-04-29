@@ -1,0 +1,122 @@
+/*Selector Universal*/
+*{
+    margin: 0; 
+    padding: 0;
+    text-decoration: none;
+ }
+ /*Selector de etiqueta*/
+ body{
+     background-color: white;
+     color: black;
+ }
+ ul{
+     text-align: center;
+     padding: 10px;
+ 
+ }
+ li{
+     display: inline;
+     padding: 10px,30px;
+     margin: 3em;
+ }
+ li a:hover{
+ color: crimson;
+ text-decoration: none;
+ font-size: 20;
+ }
+ /*Selector id*/
+ #contenedor{
+     width: 1200px;
+     height: 2350px;
+     background-color: rgb(238, 195, 220);
+     margin: 10px;
+     padding: 10px;
+ }
+ #encabezado{
+     width: 90%;
+     background-color: rgb(244, 220, 245);
+     margin: 1em;
+     text-align: center;
+     border-radius: 5px;
+ }
+ #menu{
+     height: 40px;
+     background-color: #f5f5dc;
+     margin: 1em;
+     border-radius: 5px;
+ }
+ /*Selector de imagen*/
+ 
+ .texto{
+     text-align: justify;
+     font-family: serif;
+     font-size: 20px;
+     padding: 5px,25px;
+ }
+ #footer{
+     height: 21px;
+     background-color: #f5f5dc;
+     text-align: center;
+     padding: 5px;
+     border-radius: 5px;
+ }
+ 
+ 
+ /*Tarjetas */
+
+   
+   .poppins-regular {
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+   }
+ 
+   .card{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     overflow: hidden;
+     max-width: 300px;
+     margin: auto;
+     text-align: center;
+     border: 2px solid;
+     border-radius: 10px;
+     margin-bottom: 10px;
+   }
+ 
+   .card:hover{
+    max-width: 310px;
+   }
+ 
+   .card img{
+     background-color: white;
+     width: 100%;
+   }
+ 
+   .title{
+     color: rgb(170, 64, 81);
+     font-size: 18px;
+   }
+ 
+   button{
+     border: none;
+     outline: 0;
+     display: inline-block;
+     padding: 8px;
+     background-color: black;
+     text-align: center;
+     cursor: pointer;
+     width: 100%;
+     font-size: 18px;
+     color: white;
+   }
+   
+   button:hover{
+     opacity: 0.7;
+   }
+
+   /*Flexbox para cards*/
+   .contenedorFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
